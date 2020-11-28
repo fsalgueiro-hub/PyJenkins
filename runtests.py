@@ -19,6 +19,6 @@ class TestBook(unittest.TestCase):
 
 if __name__ == '__main__':
     print("Starting the runner test")
-    runner().run(unittest.main())
-    #unittest.main()
+    # runner().run(unittest.main())
+    unittest.main(testRunner=runner())
     print("completed")
